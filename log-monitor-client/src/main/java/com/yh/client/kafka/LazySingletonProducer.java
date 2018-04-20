@@ -23,6 +23,7 @@ public class LazySingletonProducer {
                 if (producer == null) {
                     producer = new KafkaProducer<byte[], String>(config);
                 }
+                //aaa
             }
         }
         return producer;
